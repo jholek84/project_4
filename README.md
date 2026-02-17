@@ -43,9 +43,9 @@ U mléka si mohl dokonce dovolit o 213 litrů mléka více.**
 
 **3a)** 
 
-Největší míra zdražení se udála u paprik, na druhou stranu nejvíce zlevnil cukr krystal.
-**Cukr krystal** byl potravinou s nejvýraznějším poklesem ceny.  Pokud porovnáme absolutní data, v roce 2006 stál cca 22,30 Kč, zatímco v roce 2018 klesl na průměrných 15,70 Kč. 
-Za sledované období klesla jeho cena celkem o 6,60 Kč za kilogram.
+Neméně zdražil cukr krystal - došlo zde k poklesu ceny.
+**Cukr krystal** byl potravinou s nejpomalejším tempem zdražování.  Pokud porovnáme absolutní data, v roce 2006 stál cca 22,30 Kč, zatímco v roce 2018 klesl na průměrných 15,70 Kč. 
+Za sledované období klesla tedy jeho cena celkem o 6,60 Kč za kilogram.
 
 **3b)**
 
