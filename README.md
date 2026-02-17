@@ -21,7 +21,7 @@ Tento projekt se zabývá analýzou ekonomických dat České republiky se zamě
 * economies - HDP, GINI, daňová zátěž, atd. pro daný stát a rok.
 
 ## Vznikly dvě cílové tabulky
-* t_jiri_holek_project_SQL_primary_final: tabulka primárně obsahuje data mezd a cen potravin za Českou republiku sjednocených na srovnatelné období - roky
+* t_jiri_holek_project_SQL_primary_final: tabulka primárně obsahuje data mezd a cen potravin za Českou republiku sjednocených za srovnatelné období - roky
 * t_jiri_holek_project_SQL_secondary_final: tabulka obsahuje data o evropských státech.
 
 
