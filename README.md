@@ -1,6 +1,6 @@
 # Projekt číslo čtyři na téma SQL zkoumá vliv HDP na mzdy a ceny potravin v ČR (2006–2018)
 
-Tento projekt se zabývá analýzou ekonomických dat České republiky se zaměřením na vztah mezi průměrnými mzdami, cenami základních potravin a hrubým domácím produktem (HDP).
+Tento projekt se zabývá analýzou ekonomických dat České republiky se zaměřením na vztah mezi průměrnými mzdami, cenami základních potravin a hrubým domácím produktem (HDP). Projekt je postaven na databázi SQL.
 
 ## Datové sady, které je možné použít pro získání vhodného datového podkladu
 ### Primární tabulky:
