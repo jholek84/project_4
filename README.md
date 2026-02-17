@@ -2,7 +2,7 @@
 
 Tento projekt se zabývá analýzou ekonomických dat České republiky se zaměřením na vztah mezi průměrnými mzdami, cenami základních potravin a hrubým domácím produktem (HDP).
 
-## 🚀 Výzkumné otázky a výsledky
+##  Výzkumné otázky a výsledky
 
 ### 1. Rostou mzdy ve všech odvětvích, nebo v některých klesají?
 
