@@ -3,7 +3,7 @@
 
 SELECT 
     industry_name,
-    payroll_year,
+    common_year, -- OPRAVENO z payroll na common
     average_salary,
     prev_year_salary,
     -- Výpočet rozdílu v korunách
@@ -14,14 +14,14 @@ FROM (
     -- Specifikace unikátní mzdy pro každé odvětví a rok a hodnoty z předchozího roku
     SELECT 
         industry_name,
-        payroll_year,
+        common_year,
         average_salary,
-        LAG(average_salary) OVER (PARTITION BY industry_name ORDER BY payroll_year) AS prev_year_salary
+        LAG(average_salary) OVER (PARTITION BY industry_name ORDER BY common_year) AS prev_year_salary
     FROM (
         -- Příkaz DISTINCT, protože v primární tabulce jsou data znásobená
         SELECT DISTINCT 
             industry_name, 
-            payroll_year, 
+            common_year, 
             average_salary 
         FROM t_jiri_holek_project_sql_primary_final
     ) sub_distinct
