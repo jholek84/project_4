@@ -64,7 +64,4 @@ Naopak v roce recese 2009 pokleslo DPH o 4,66%, což se ještě ve stejném roce
 ## Struktura repozitáře
 * `README.md` - Tato dokumentace včetně výzkumných otázek a odpovědí na ně.
 * `tabulka_1_a_tabulka_2.sql` - SQL struktura primární a sekundární tabulky.
-* `první_výzkumná_otázka.sql až pátá_výzkumná_otázka.sgl` - SQL struktura dotazů do primíární a sekundární tabulky pro získání odpovědí na výzkumné otázky.
-
-* `README.md` - Tato dokumentace.
-* `holek_jiri_SQL_queries.sql` - Kompletní SQL skript pro výpočet všech otázek.
+* `první_výzkumná_otázka.sql až pátá_výzkumná_otázka.sgl` - SQL struktura dotazů do primární a sekundární tabulky pro získání odpovědí na výzkumné otázky.
