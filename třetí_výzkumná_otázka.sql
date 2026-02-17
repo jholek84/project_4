@@ -7,16 +7,16 @@ SELECT
 FROM (
     SELECT 
         food_name,
-        payroll_year,
+        common_year, -- OPRAVENO: z payroll na common
         average_price,
         -- výpočet procentuální změny ceny oproti předchozímu roku pomocí LAG
-        ((average_price - LAG(average_price) OVER (PARTITION BY food_name ORDER BY payroll_year)) / 
-        LAG(average_price) OVER (PARTITION BY food_name ORDER BY payroll_year) * 100) AS yearly_percentage_change
+        ((average_price - LAG(average_price) OVER (PARTITION BY food_name ORDER BY common_year)) / 
+        LAG(average_price) OVER (PARTITION BY food_name ORDER BY common_year) * 100) AS yearly_percentage_change
     FROM (
         -- musíme vzít unikátní záznamy potravin a let z primární tabulky
         SELECT DISTINCT 
             food_name, 
-            payroll_year, 
+            common_year, 
             average_price 
         FROM t_jiri_holek_project_sql_primary_final
     ) sub_prices
@@ -27,7 +27,7 @@ GROUP BY food_name
 ORDER BY average_yearly_growth_pct ASC; 
 -- seřadíme od nejnižšího růstu (nejpomalejší míra zdražování)
 
- 3b) srovnání cen cukru a paprik mezi lety 2006 a 2018
+-- 3b) Srovnání cen cukru a paprik mezi lety 2006 a 2018 (OPRAVENO: doplněn komentář)
 WITH boundary_years AS (
     SELECT MIN(common_year) AS min_year, MAX(common_year) AS max_year
     FROM t_jiri_holek_project_sql_primary_final
